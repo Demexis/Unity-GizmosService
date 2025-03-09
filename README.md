@@ -43,6 +43,8 @@ private void Start() {
 
 The service has a variation of a similar method for setting a timer, called `RegisterGizmoTemp`.
 
-Sample #1 shows the use of templates for slightly more complex shapes that have an outline, background or arrow.
+**Sample #1 shows the use of templates for slightly more complex shapes that have an outline, background or arrow.**
+![Screenshot (637)](https://github.com/user-attachments/assets/921dfa9b-2366-42bf-82bd-40e391f6f3cd)
 
-Sample #2 shows a canvas with buttons to enable/disable categories, or enable/disable the rendering of all gizmos.
+**Sample #2 shows a canvas with buttons to enable/disable categories, or enable/disable the rendering of all gizmos.**
+![Screenshot (638)](https://github.com/user-attachments/assets/8a78d739-b1aa-42b7-9790-10ef55045ba5)
