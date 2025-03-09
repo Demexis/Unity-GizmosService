@@ -21,10 +21,14 @@ When drawing with gizmos - use `CustomGizmos` class.
 
 To register new gizmo-callback, use method `RegisterGizmo`:
 ```cs
-public GizmosSystemInstance systemInstance;
+private IGizmosSystem system;
+
+private void Awake() {
+    system = new GizmosSystem();
+}
 
 private void Start() {
-    systemInstance.system.RegisterGizmo("Templates", () => {
+    system.RegisterGizmo("Templates", () => {
         if (counter > 1_000) {
             return false;
         }
